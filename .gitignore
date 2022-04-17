@@ -5,6 +5,9 @@
 #database
 .env
 
+#todo
+todo.txt
+
 # Logs
 logs
 *.log
