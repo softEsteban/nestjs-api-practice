@@ -9,6 +9,12 @@ export class resultDto {
 
   @ApiProperty()
   data: string;
+
+  constructor(status, message, data) {
+    this.status = status;
+    this.messsage = message;
+    this.data = data;
+  }
 }
 
 export default resultDto;
